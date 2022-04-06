@@ -1,0 +1,5 @@
+### SimulatingDecisionMakingInAnts
+
+This simulation is an adapted version of Robinsion et al's threshold rule based collective dicision making in ants. Their model works with random sampling, hence, there are simulation results where ants collectively selecting the poor site dominate. Further research about the empirical data highlights that about forty-one percent of ants that visit the poor nest move on and go to the better nest [2]. Adding to that, the results paper [1] show an intermediary output in my perspective where ants selecting the poor nest stay in the poor nest whereas eventually, the entire colony emigrates to the good nest [9,10,13]. This simulation addresses that problem by using Latin Hypercube Sampling in place of random sampling while making the choice of nest.
+
+[1]. Robinson, Elva J. H., Nigel R. Franks, Samuel Ellis, Saki Okuda, and James A. R. Marshall. “A Simple Threshold Rule Is Sufficient to Explain Sophisticated Collective Decision-Making.” Edited by Frederick R. Adler. PLoS ONE 6, no. 5 (May 24, 2011): e19981. https://doi.org/10.1371/journal.pone.0019981.
